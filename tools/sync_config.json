@@ -1,0 +1,4 @@
+{
+  "$comment": "Diisi oleh /choose-stack. dest relatif terhadap root repo. Contoh: flutter=assets/content, godot=content_game (atau folder project Godot), unity=Assets/_Game/StreamingAssets/Content, phaser-capacitor=public/content",
+  "dest": ""
+}

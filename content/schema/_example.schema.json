@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Contoh skema. Salin menjadi <jenis>.schema.json; validate.py mencocokkan content/build/<jenis>/*.json dengan file ini.",
+  "type": "object",
+  "required": ["schemaVersion", "levels"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "packId": { "type": "string" },
+    "levels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "difficulty"],
+        "properties": {
+          "id": { "type": "string" },
+          "difficulty": { "type": "integer", "minimum": 1 }
+        }
+      }
+    }
+  }
+}
