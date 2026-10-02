@@ -87,3 +87,4 @@ Jika dokumen PRD/GDD sudah ada (misalnya hasil brainstorming di luar Claude Code
 ```
 /plan-game Ide sudah ada di docs/PRD.md. Baca dokumen itu dulu, tanyakan hanya hal yang belum terjawab, lalu isi game-overview.md, game-design.md, dan build-plan.md.
 ```
+# claude-kontext-game-kit
